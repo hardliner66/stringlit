@@ -1,0 +1,18 @@
+[package]
+name = "stringlit"
+description = "A macro to convert from str to String"
+version = "0.1.0"
+authors = ["hardliner66"]
+edition = "2018"
+
+homepage = "https://github.com/hardliner66/stringlit"
+repository = "https://github.com/hardliner66/stringlit"
+
+license = "MIT"
+
+readme = "README.md"
+
+keywords = ["string", "macro", "str"]
+
+[badges]
+maintenance = { status = "as-is" }
