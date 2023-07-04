@@ -1,11 +1,15 @@
 #[macro_export]
 macro_rules! s {
-    ($e:literal) => {$e.to_owned() as String};
+    ($e:expr) => {
+        $e.to_owned() as String
+    };
 }
 
 #[macro_export]
 macro_rules! string {
-    ($e:literal) => {$e.to_owned() as String};
+    ($e:expr) => {
+        $e.to_owned() as String
+    };
 }
 
 #[cfg(test)]
